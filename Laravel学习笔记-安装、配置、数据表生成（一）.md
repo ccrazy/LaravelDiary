@@ -4,7 +4,7 @@
 
 今天算是第一天用**composer**，按照官方文档来学习laravel，以此作为终结，希望自己能每天坚持做笔记。
 > * 我的操作环境
-Mac OS X + XAMPP + composer
+Mac OS X + XAMPP + composer + laravel5.3.29
 > * 操作过程
 1.安装xampp，给htdocs文件夹所有操作权限chmod -R 777 htdocs
 2.数据库管理工具使用的是[Sequel Pro](https://www.sequelpro.com/)
@@ -54,3 +54,11 @@ Schema::create('students', function (Blueprint $table){//务必保证create第�
 #命令行中执行
 php artisan migrate//执行成功创建表students
 ```
+6.查看laravel版本[^code]
+```
+#命令行中运行
+php artisan --version
+```
+
+**上述所有命令行操作都在laravel根目录进行**
+学习资料[http://www.golaravel.com/](http://www.golaravel.com/)
